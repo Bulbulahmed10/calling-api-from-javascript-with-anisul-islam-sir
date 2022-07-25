@@ -109,38 +109,47 @@ console.clear();
 // localStorage store data as key value pain -- string
 //setItem(key, value)
 
-localStorage.setItem("userName", "Bulbul Ahmed")
-localStorage.setItem("password", "01456565687")
+// localStorage.setItem("userName", "Bulbul Ahmed")
+// localStorage.setItem("password", "01456565687")
 
-const userName =localStorage.getItem("userName")
-const userPassword = localStorage.getItem("password")
+// const userName =localStorage.getItem("userName")
+// const userPassword = localStorage.getItem("password")
 
-console.log(userName, userPassword);
+// console.log(userName, userPassword);
 
 
-localStorage.setItem("userName", "rabeya islam")
- localStorage.setItem("password", "4547154")
+// localStorage.setItem("userName", "rabeya islam")
+//  localStorage.setItem("password", "4547154")
 
 //removeItem(key)
 
-localStorage.removeItem("userName")
-localStorage.removeItem("password")
+// localStorage.removeItem("userName")
+// localStorage.removeItem("password")
 
-const countries = ["Australia","Bangladesh","Nepal"]
+// const countries = ["Australia","Bangladesh","Nepal"]
 
-localStorage.setItem("countries", JSON.stringify(countries))
-localStorage.setItem("password", "014575245")
+// localStorage.setItem("countries", JSON.stringify(countries))
+// localStorage.setItem("password", "014575245")
 
-const country = JSON.parse(localStorage.getItem("countries"))
-const pass = localStorage.getItem("password")
+// const country = JSON.parse(localStorage.getItem("countries"))
+// const pass = localStorage.getItem("password")
 
-console.log(country, pass);
+// console.log(country, pass);
 
 
 
 //===========session storage=============
 
+// localStorage vs sessionStorage
+// 10mb vs 5mb
+// permanent vs session (tab)
+
+sessionStorage.setItem("user", "Bulbul")
 
 
+
+//===========cookie=============
+
+document.cookie = 'username=bulbul; expires= Mon, 25 Jul 2022 18:32:00 GMT'
 
 
